@@ -58,14 +58,14 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
    > Click **OK**, in the warning dialog shown for not configuring role settings.
     ![Review](images/role-warning.png)
 
-The app creation process may take up to *90 seconds*. In the meantime, you can either complete the optional [Exercise 2.3](#exercise-23-j4c-queries-optional) or proceed directly to the [Summary](#summary).
+The app creation process may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 2.3](#exercise-23-j4c-queries-optional) or proceed directly to the [Summary](#summary).
 
    | In Process         | Completed               |
    |--------------|---------------------|
    | ![Creation Status Creating](images/status-creating.png) | ![Creation Status Creating](images/status-created.png) |
 
 
-## Exercise 2.3 J4C Queries (Optional)
+## Exercise 2.3 J4C Queries *(Optional)*
 
 1. Launch J4C: [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule)  
 2. Try the following example queries:  
