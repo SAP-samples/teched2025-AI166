@@ -1,156 +1,116 @@
-# Exercise 3 - Exercise 3 Description
+# Exercise 3 - Create an MDK Project in SAP Build Lobby  
 
-In this exercise, you will access the SAP Build Lobby to create a an MDK Project and deploy the first version of your app.
+In this exercise, you will access the SAP Build Lobby to create an MDK project and deploy the first version of your app.  
 
-## Exercise 3.1 Access Lobby
+## Exercise 3.1 Access Lobby  
 
-1. Open the SAP Build Lobby: https://ai166-ftaiywgj.eu10.build.cloud.sap/lobby
+1. Open the SAP Build Lobby: [https://ai166-ftaiywgj.eu10.build.cloud.sap/lobby](https://ai166-ftaiywgj.eu10.build.cloud.sap/lobby)  
+   > If prompted, select **`tdct3ched1.accounts.ondemand.com`** on the Identity Provider selection page.  
+2. Log in using the credentials provided by the session speakers.  
 
-  > If prompted, select "tdct3ched1.accounts.ondemand.com" on the Identity Provider selection page.
+## Exercise 3.2 Create Mobile Project  
 
-2.	Log in using the credentials provided by the session speakers.
-
-![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-
-## Exercise 3.2 Create Mobile Project
-
-1. In the SAP Build Lobby, click **Create** > **Create** to start the creation process.
-
-![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-
-2. Click the **Application** tile and choose **Next**.    
-
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-
-3. Select the **Mobile** category and choose **Next**.
-
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-
-4. Select the **Mobile Application** to develop your mobile project in SAP Business Application Studio and choose **Next**. 
-
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-
-5. Enter the following details and click **Review**
-   
-   | Key          | Value               | Comments |
-   |--------------|---------------------|----------|
-   | Name         | `XXXMDKApp`       | Replace `xxx` with your student number (last 3 digits of your login email). |
-   | Description  | *Any text you prefer* | Since the Mobile Services space is shared, follow the naming convention. You can customize the description to help identify your app. |
-   | Dev Space         | `Mobile`       | SAP Build pre-selects the dev space it deems most suitable, and it will automatically create a new one for you if you don't already have one. If you have pre-existing dev spaces of the Mobile Application type, you can reuse them. For more details, see [Dev Space Manager](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/ad40d52d0bea4d79baaf9626509caf33.html) |
-   
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-    
-
-6. Review the inputs under the Summary tab. If everything looks correct, click **Create** to proceed with creating your project.
-
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-
-    > Your project is being created in the Project table of the lobby. The creation of the project may take up to 120 seconds. In the meantime, you can try the optional [Exercise 3.6](#exercise-36-j4c-queries-optional)
-
-7. After the project has been created successfully, click the project to open it. 
-
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-    
-8. The project opens in SAP Business Application Studio.
-
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-
-    >When you open the SAP Business Application Studio for the first time, a consent window may appear asking for permission to track your usage. Please review and provide your consent accordingly before proceeding.
-
-
-## Exercise 3.3 Log in to CF
-
-1. Launch Command Pallete Shift+Ctrl+P and type "Login" and select "CF: Login to Cloud Foundry"
-
-2. Select authetication mode as "SSO Passcode" and click "Open a new browser page to generate your SSO Passcode"
-
-3. Sign in with the credentials provided to you during the session.
-   
-   > In case you don't get an option to select your username, enter the origin key: **`tdct3ched1-platform`** and click **Sign in with alternative identity provider**.
-
-4. Copy the temporary Authentication Code
-
-5. Pase it in the Enter your SSO Passcode input field and click Sign In
-
-6. Verify the **Organization** and **Space** details as shown in the image, then click **Apply**.
-
-You will recieve toas notifications confirming your CF Login has been completed successfully.
-
-
-![XXX AI to add name](images/xxx-ai-to-add-name.gif)  
-
-
-## Exercise 3.4 Configure the Runtime & External Resources Using Storyboard
-
-
-1. Click on **+** button in the **Runtime Resources** column to add a mobile services app to your project. 
-
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)  
-
-2. Search for `XXX` Choose `edu.xxx.teched25` from the applications list in the **Mobile Application Services** editor.
-
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png) 
-
-    > Replace `xxx` with your student number (last 3 digits of your login email).
-
-3. Select `com.sap.edm.sampleservice.v4` from the destinations list and click **Add App to Project**.
-
-   ![XXX AI to add name](images/xxx-ai-to-add-name.png) 
-
-In the storyboard window, the app and mobile destination will be added under the Runtime Resources column. The mobile destination will also be added under the External Resources with a dotted-line connection to the Runtime Resource.
-
-![XXX AI to add name](images/xxx-ai-to-add-name.png)
-
-## Exercise 3.5 Create Application UI
-
-1. Click the **+** button in the UI application column header to add mobile UI for your project.
-
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)
-
-2. In the **Basic Information** step, enter the following details and click **Next**:  
+1. In the SAP Build Lobby, click **Create** > **Create** to start the creation process.  
+   ![Create Project](images/create-project.png)  
+2. Click the **Application** tile and choose **Next**.  
+   ![Objective Application](images/objective-app.png)  
+3. Select the **Mobile** category and choose **Next**.  
+   ![Mobile Category](images/category-mobile.png)  
+4. Select **Mobile Application** to develop your mobile project in SAP Business Application Studio, then choose **Next**.  
+   ![Mobile App Option](images/app-type.png)  
+5. Enter the following details and click **Review**:  
 
    | Key          | Value               | Comments |
    |--------------|---------------------|----------|
-   | MDK Template Type | `CRUD`        |          |
+   | Name         | `XXXMDKApp`         | Replace `xxx` with your student number (last 3 digits of your login email). |
+   | Description  | *Any text you prefer* | Since the Mobile Services space is shared, follow the naming convention. |
+   | Dev Space    | `Mobile`            | SAP Build pre-selects the most suitable dev space. It will create a new one if needed, or you can reuse an existing Mobile Application dev space. See [Dev Space Manager](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/ad40d52d0bea4d79baaf9626509caf33.html) for more details. |
 
-   > leave the other options as they are.
-   
-   ![XXX AI to add name](images/xxx-ai-to-add-name.png)
+   ![Project Info](images/project-info.png)  
 
-3. In the **Data Collections** step, provide the below information and click **Finish**.
+6. Review the inputs under the **Summary** tab. If everything looks correct, click **Create**.  
+   ![Summary](images/summary-review.png)  
 
-    | Key | Value |
-    |----|----|
-    | `Enter a path to service (e.g. /sap/opu/odata/sap/SERVICE_NAME)` | Leave it as it is  |
-    | `Select the Service Type` | Keep `OData` |
-    | `Enable Offline` | Keep `Yes` |
-    | `Select all data collections` | Choose `Yes` |
+   > Your project will appear in the Lobby project table. Creation may take up to *120 seconds*. In the meantime, you can try the optional [Exercise 3.6](#exercise-36-j4c-queries-optional).  
 
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)
+7. Once the project is created, click the project to open it.  
+   ![Open Project](images/open-project.png)
 
-    > Since you have Enable Offline set to *Yes*, the generated application will be offline enabled in the MDK Mobile client. Therefore, the end-user can keep making fast read/writes with the local DB without letting the network slow them down.
+   > You can filter the SAP Build Lobby view to see only your projects.  
 
-4. After clicking **Finish**, the storyboard is updated displaying the UI component. 
+8. The project opens in SAP Business Application Studio.  
 
-    ![XXX AI to add name](images/xxx-ai-to-add-name.png)
+   > The first time you open BAS, you may see a consent dialog asking for permission to track usage. Review and provide your consent accordingly.  
 
-The MDK project is being generated in the project explorer. Once done, it will automatically deploy the first version to the Mobile Services based on the selections made during the UI Creation. The whole process may take up to 60 seconds. In the meantime, you can try the optional [Exercise 3.6](#exercise-36-j4c-queries-optional).
+## Exercise 3.3 Log in to Cloud Foundry (CF)  
 
+1. Launch the **Command Palette** with **Shift+Ctrl+P**, type *Login*, and select **CF: Login to Cloud Foundry**.  
+2. Select **SSO Passcode** as the authentication mode, then click **Open a new browser page to generate your SSO Passcode**.  
+3. Sign in using the credentials provided during the session.  
+   > If the username option does not appear, enter the origin key **`tdct3ched1-platform`** and click **Sign in with alternative identity provider**.  
+4. Copy the temporary authentication code.  
+5. Paste it in the **Enter your SSO Passcode** input field and click **Sign In**.  
+6. Verify the **Organization** and **Space** details, then click **Apply**.  
 
-## Exercise 3.6 J4C Queries *(Optional)*
+   You will see toast notifications confirming that your CF login was successful.  
+
+   ![CF Login](images/cf-login.gif)  
+
+## Exercise 3.4 Configure Runtime & External Resources Using Storyboard  
+
+1. Click the **+** button in the **Runtime Resources** column to add a Mobile Services app to your project.  
+   ![Runtime Resources](images/runtime-resources.png)  
+2. Search for `XXX`, then select `edu.xxx.teched25` from the applications list in the **Mobile Application Services** editor.  
+   > Replace `xxx` with your student number (last 3 digits of your login email).  
+   ![Select App](images/select-app.png)  
+3. Select `com.sap.edm.sampleservice.v4` from the destinations list and click **Add App to Project**.  
+   ![Add Destination](images/add-destination.png)  
+
+The storyboard will now display the app under **Runtime Resources** and the destination under **External Resources**, connected by a dotted line.  
+
+   ![Partially Configured Storyboard](images/partially-configured-storyboard.png)  
+
+## Exercise 3.5 Create Application UI  
+
+1. Click the **+** button in the **UI Applications** column header to add a mobile UI.  
+   ![Add UI](images/add-ui.png)  
+2. In **Basic Information**, enter the following and click **Next**:  
+
+   | Key              | Value  | Comments |
+   |------------------|--------|----------|
+   | MDK Template Type | `CRUD` | Leave all other options as default. |  
+
+   ![UI Basic Info](images/ui-basic-info.png)  
+
+3. In **Data Collections**, enter the following and click **Finish**:  
+
+   | Key | Value |
+   |-----|-------|
+   | Path to service | Leave as is |
+   | Service Type | `OData` |
+   | Enable Offline | `Yes` |
+   | Select all data collections | `Yes` |  
+
+   ![Data Collections](images/ui-data-collection.png)  
+
+   > With *Enable Offline* set to **Yes**, the generated app will support offline capabilities in the MDK Mobile client, allowing end-users to read/write data locally without network delays.  
+
+4. After clicking **Finish**, the storyboard will update with the UI component.  
+   ![UI Storyboard](images/configured-storyboard.png)  
+
+The MDK project is generated in the Project Explorer and automatically deployed to Mobile Services. This may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 3.6](#exercise-36-j4c-queries-optional) or proceed directly to the [Summary](#summary).  
+
+## Exercise 3.6 J4C Queries *(Optional)*  
 
 1. Launch J4C: [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule)  
-
 2. Try the following example queries:  
-
    - **App in Cockpit vs Lobby**  
-     > What is the difference between the MDK app I create in Mobile Services Cockpit, vs. the MDK app I create in SAP Build Lobby?  
-
-   - **Runtime vs External resource**  
+     > What is the difference between the MDK app I create in Mobile Services Cockpit and the one I create in SAP Build Lobby?  
+   - **Runtime vs External Resource**  
      > What is the difference between Runtime Resource and External Resource for an MDK app?  
 
-## Summary
+## Summary  
 
-You've now used SAP Build Lobby to create your MDK project and deploy the first version. After the deployment You will now see a QR code for onboarding the mobile app. Leave the Onboarding dialog box open for the next step
+You have now used SAP Build Lobby to create an MDK project and deploy the first version. After deployment, a QR code will appear for onboarding the mobile app. Keep the Onboarding dialog box open for the next exercise.  
 
 Continue to - [Exercise 4 - Exercise 4 Description](../ex4/README.md)
