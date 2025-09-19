@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called AI166 - Mobile projects with SAP Joule for Consultants and SAP Joule for Developers
+This repository contains the material for the SAP TechEd 2025 session AI166 - Mobile projects with SAP Joule for Consultants and SAP Joule for Developers
 
 ## Overview
 
@@ -11,6 +11,11 @@ In this session, learn how Joule for Consultants (J4C) and Joule for Developers 
 ## Requirements
 
 The requirements to follow the exercises in this repository are...
+
+## Use Case
+ACME Logistics has engaged you to build and run a mobile app for their warehouse staff. The app must work on iOS and Android, support barcode scanning, and keep pace with massive parcel volumes by using a local store for instant updates that syncs seamlessly with the back end. 
+
+Your mandate goes beyond delivery. You’re also responsible for day-to-day operations and continuously adapting the app as the needs evolve.
 
 ## Exercises
 

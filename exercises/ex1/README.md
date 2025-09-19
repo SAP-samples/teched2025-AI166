@@ -1,44 +1,60 @@
-# Exercise 1 - Exercise 1 Description
+# Exercise 1 - Evaluate mobile options in SAP Build with J4C
 
-In this exercise, we will create...
+In this exercise, you’ll leverage J4C to choose the technology stack for the mobile app and then try out a demo version in action.
 
-## Exercise 1.1 Sub Exercise 1 Description
+## Exercise 1.1 Access Joule for Consultants
 
-After completing these steps you will have created...
+1. Launch J4C - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule 
+2. Login using the credentials provided to you by the session speakers
+   ![J4C Landing Page](images/j4c-landing.png)
 
-1. Click here.
-<br>![](/exercises/ex1/images/01_01_0010.png)
+## Exercise 1.2 Determine Technology Stack
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello World! | ). 
-```
+1. Summarize the client requirement  
+   Example query:  
+   > I want to build a custom mobile app. What technology should I use?
+
+2. SAP Build offers multiple approaches to achieve the same objective. Use J4C to determine which solution best fits your needs best.
+   Example query:  
+   > I don’t have native mobile developers, but I need the app to run on both iOS and Android within a limited budget. Should I use MDK or Native SDKs? 
+
+3. In this session you will develop an Mobile Development Kit (MDK) app, therefore, ask J4C whether it supports a critical requirement.  
+   Example query:  
+   > The data read/write volume may be very high, so I’m considering a local store that periodically syncs with the back end. Can an MDK app support this?
+
+By the end of this conversation, you should have concluded that MDK is a suitable choice for building the mobile application.
 
 
+## Exercise 1.3 Download Mobile Services Client
 
-## Exercise 1.2 Sub Exercise 2 Description
+1. Scan the appropriate code to install SAP Mobile Services Client on your mobile device. 
 
-After completing these steps you will have...
+   | Platform    | Code |
+   | --------- | ----------- |
+   | iOS <br> [*(app store link*)](https://apps.apple.com/us/app/sap-mobile-services-client/id1413653544) | ![iOS QR Code](images/ios-qr.png)|
+   | Android  <br> [*(play store link)*](https://play.google.com/store/apps/details?id=com.sap.mobileservices.client) | ![iOS QR Code](images/android-qr.png)|
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
 
-```
+## Exercise 1.4 Experience a Demo App
 
-2.	Click here.
-<br>![](/exercises/ex1/images/01_02_0010.png)
+1. Launch the **SAP Mobile Services Client** app on your phone.  
+2. **Accept** the End User License Agreement and Privacy Statement.
+3. Tap **Try the Demo**.  
+4. Open **Demo App**.  
+   > The Demo App lets you explore MDK capabilities as a sample application.
+5. Navigate through the different screens and controls to experience the functionality.  
+6. Open the **popover menu**.  
+7. Tap **Logout** when done.  
 
+| iOS | Android |
+|-----|---------|
+| ![iOS Demo App](images/ios-demo.gif) | ![Android Demo App](images/android-demo.gif) |
+
+> The app also includes Mentor App mode. The MDK Mentor app is interactive documentation that helps designers and developers discover MDK capabilities.
 
 ## Summary
 
-You've now ...
+You've now leveraged J4C to conclude on using MDK to build your mobile application.
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md) //TODO
 
