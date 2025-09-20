@@ -1,10 +1,8 @@
-# Exercise 5 - Exercise 5 Description
+# Exercise 5 - Exercise 6 Description
 
-In this exercise, we will create...
+In this exercise, you will ship a new version of the app instantly after making changes using different techniques.
 
-## Exercise 5.1 Sub Exercise 1 Description
-
-After completing these steps you will have created...
+## Exercise 6.1 Navigate to Main.Page
 
 1. Click here.
 <br>![](/exercises/ex5/images/05_01_0010.png)
@@ -14,7 +12,7 @@ After completing these steps you will have created...
 response->set_text( |Hello ABAP World! | ). 
 ```
 
-## Exercise 5.2 Sub Exercise 2 Description
+## Exercise 6.2 Use Visual Editor to make changes
 
 After completing these steps you will have...
 
@@ -30,8 +28,11 @@ READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
 
 ```
 
-2.	Click here.
-<br>![](/exercises/ex5/images/05_02_0010.png)
+## Exercise 6.3 Use Text Editor to make changes
+
+## Exercise 6.3 Use Joule Editor to make changes
+
+## Exercise 6.4 Deploy & Test
 
 ## Summary
 
