@@ -1,4 +1,4 @@
-# Exercise 5 - Exercise 5 Description
+# Exercise 5 - J4C for Mobile Admins
 
 In this exercise, you will use J4C to assist you with administration activities.
 

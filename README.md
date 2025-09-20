@@ -1,4 +1,4 @@
-# Session ID - Session Title
+#  AI166 - Mobile projects with SAP Joule for Consultants and SAP Joule for Developers
 
 ## Description
 
@@ -10,7 +10,7 @@ In this session, learn how Joule for Consultants (J4C) and Joule for Developers 
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+Ensure your personal mobile device has sufficient battery and is connected to the event Wi-Fi.
 
 ## Use Case
 ACME Logistics has engaged you to build and run a mobile app for their warehouse staff. The app must work on iOS and Android, support barcode scanning, and keep pace with massive parcel volumes by using a local store for instant updates that syncs seamlessly with the back end. 
@@ -19,13 +19,12 @@ Your mandate goes beyond delivery. You’re also responsible for day-to-day oper
 
 ## Exercises
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 1 - Evaluate mobile options in SAP Build with J4C](exercises/ex1/README.md)
+- [Exercise 2 — Create a Mobile Services App in Cockpit](exercises/ex2/README.md)
+- [Exercise 3 — Create an MDK Project in SAP Build Lobby  ](exercises/ex3/README.md)
+- [Exercise 4 — Using Your App on your Phone](exercises/ex4/README.md)
+- [Exercise 5 — J4C for Mobile ](exercises/ex5/README.md)
+- [Exercise 6 — App Dev & Distribution](exercises/ex6/README.md)
 
 
 ## Contributing

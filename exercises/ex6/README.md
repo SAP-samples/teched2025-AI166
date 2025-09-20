@@ -1,4 +1,4 @@
-# Exercise 6 - Instant App Updates
+# Exercise 6 - App Dev & Distribution
 
 In this exercise, you will ship a new version of the app instantly after making changes using different techniques.
 

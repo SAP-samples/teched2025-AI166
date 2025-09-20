@@ -1,4 +1,4 @@
-# Exercise 4 - Using Your App on the Device
+# Exercise 4 - Using Your App on your Phone
 
 In this exercise, you will explore different features of the mobile app you built.
 
