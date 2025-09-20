@@ -1,40 +1,52 @@
 # Exercise 5 - Exercise 5 Description
 
-In this exercise, we will create...
+In this exercise, you will use J4C to assist you with administration activities.
 
-## Exercise 5.1 Sub Exercise 1 Description
+## Exercise 5.1 Modify Passcode Policy
 
-After completing these steps you will have created...
+1. Go back to J4C - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule  
+   > You may have to reload the page and re-authenticate.
 
-1. Click here.
-<br>![](/exercises/ex5/images/05_01_0010.png)
+2. Start a New Conversation, and ask J4C to guide you to change the passcode policy by contextualizing your requirement.  
+   Example query:  
+   > I am a Mobile Services Administrator. I have received complaints that 8 characters is too long. So after a security audit, I am allowed to reduce it to 5 characters, but the passcode should have at least one upper case, and one lower case character. How do I make this change in Mobile Services cockpit?
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+3. Follow the steps mentioned by J4C.  
 
-## Exercise 5.2 Sub Exercise 2 Description
+   > Since we have a monthly cloud shipment, J4C may not have the latest information. In case you notice any discrepancy, please request assistance from the speaker. Alternatively, use the following steps to change the passcode policy:  
+   > 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.  
+   > 2. Open your app **edu.xxx.teched25**.  
+   > 3. Open **Client Settings**.  
+   > 4. Change *Minimum Length* to **5**.  
+   > 5. Enable *Upper Case Character Required* & *Lower Case Character Required*.  
+   > 6. Click **Save**.  
+   > 7. Kill and relaunch your app a couple of times to force the update.  
+   > 8. On your device, you’ll be notified that the Passcode Policy has changed. Confirm your current passcode, then set a new one following the updated rules.
 
-After completing these steps you will have...
+---
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
+## Exercise 5.2 User and Device Management
 
-```
+1. Go back to J4C - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule  
 
-2.	Click here.
-<br>![](/exercises/ex5/images/05_02_0010.png)
+2. Ask J4C to guide you on how to do remote user and device management.  
+   Example queries:  
+   > * One of the end-users has reported that their device is lost. What options do I have to remotely handle this situation without impacting any other user?  
+   > * I would like to revoke access. Can you please guide me on how do I do it?
+
+3. Follow the steps mentioned by J4C.  
+
+   > Since we have a monthly cloud shipment, J4C may not have the latest information. In case you notice any discrepancy, please request assistance from the speaker. Alternatively, use the following steps to revoke access:  
+   > 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.  
+   > 2. Open your app **edu.xxx.teched25**.  
+   > 3. Navigate to **Users and Devices Management**.  
+   > 4. Select one or more users and revoke access.  
+   > 5. Kill and relaunch your app a couple of times to force the update, or tap **Sync Changes** in the app.  
+   > 6. On your device, you will be forced to re-authenticate. Without completing it, you won’t be able to access the app data.
 
 ## Summary
 
-You've now ...
+You’ve now seen how J4C can help administrators take advantage of product features to meet evolving business requirements.
 
-Continue to - [Exercise 5 - Exercise 5 Description](../ex5/README.md) //TODO
+
+Continue to - [Exercise 6 - Exercise 6 Description](../ex6/README.md) //TODO
