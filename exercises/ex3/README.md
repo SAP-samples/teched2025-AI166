@@ -113,4 +113,4 @@ The MDK project is generated in the Project Explorer and automatically deployed 
 
 You have now used SAP Build Lobby to create an MDK project and deploy the first version. After deployment, a QR code will appear for onboarding the mobile app. Keep the Onboarding dialog box open for the next exercise.  
 
-Continue to - [Exercise 4 - Exercise 4 Description](../ex4/README.md)
+Continue to - [Exercise 4 - Using Your App on your Phone](../ex4/README.md)

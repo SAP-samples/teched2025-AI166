@@ -93,4 +93,4 @@ Continue to - [Exercise 5 - Exercise 5 Description](../ex5/README.md)
 
 You've experienced how you can build a native application with cutting-edge features such as scanning and offline support on both platforms while maintaining a single code line.
 
-Continue to - [Exercise 5 - Exercise 5 Description](../ex5/README.md) //TODO
+Continue to - [Exercise 5 - J4C for Mobile Admins](../ex5/README.md)

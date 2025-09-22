@@ -49,4 +49,4 @@ In this exercise, you will use J4C to assist you with administration activities.
 You’ve now seen how J4C can help administrators take advantage of product features to meet evolving business requirements.
 
 
-Continue to - [Exercise 6 - Exercise 6 Description](../ex6/README.md) //TODO
+Continue to - [Exercise 6 - App Dev & Distribution](../ex6/README.md)

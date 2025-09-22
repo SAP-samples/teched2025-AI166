@@ -80,5 +80,5 @@ The app creation process may take up to *90 seconds*. In the meantime, you can e
 
 You have now explored the Mobile Services Cockpit and created a new Mobile Services app.
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md) //TODO
+Continue to - [Exercise 3 - Create an MDK Project in SAP Build Lobby  ](../ex3/README.md)
 
