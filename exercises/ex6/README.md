@@ -2,7 +2,7 @@
 
 In this exercise, you will ship a new version of the app instantly after making changes using different techniques.
 
-*Estimated Time: 🕓 x minutes*
+*Estimated Time: 🕓 20 minutes*
 
 ## Exercise 6.1 Navigate to Main.page
 
@@ -106,4 +106,9 @@ In this exercise, you will ship a new version of the app instantly after making 
 
 You’ve now seen how easy it is to update your MDK app using visual, text-based, or AI-assisted modes, and distribute the new version to end users instantly.
 
-Continue to - [Congratulations! You are done!](../../assets/README.md)
+
+
+## Navigation
+| Previous| Next |
+|---|---|
+| [Exercise 5](../ex5/README.md) | [Conclusion](../../assets/README.md) |

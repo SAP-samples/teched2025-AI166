@@ -2,7 +2,7 @@
 
 In this exercise, you will explore different features of the mobile app you built.
 
-*Estimated Time: 🕓 x minutes*
+*Estimated Time: 🕓 10 minutes*
 
 ## Exercise 4.1 User Onboarding
 
@@ -95,4 +95,7 @@ In this exercise, you will explore different features of the mobile app you buil
 
 You've experienced how you can build a native application with cutting-edge features such as scanning and offline support on both platforms while maintaining a single code line.
 
-Continue to - [Exercise 5 - J4C for Mobile Admins](../ex5/README.md)
+## Navigation
+| Previous| Next |
+|---|---|
+| [Exercise 3](../ex3/README.md) | [Exercise 5](../ex5/README.md) |

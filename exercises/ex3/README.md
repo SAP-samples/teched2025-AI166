@@ -2,7 +2,7 @@
 
 In this exercise, you will access the SAP Build Lobby to create an MDK project and deploy the first version of your app.  
 
-*Estimated Time: 🕓 x minutes*
+*Estimated Time: 🕓 20 minutes*
 
 ## Exercise 3.1 Access Lobby  
 
@@ -116,4 +116,7 @@ The MDK project is generated in the Project Explorer and automatically deployed 
 
 You have now used SAP Build Lobby to create an MDK project and deploy the first version. After deployment, a QR code will appear for onboarding the mobile app. Keep the Onboarding dialog box open for the next exercise.  
 
-Continue to - [Exercise 4 - Using Your App on your Phone](../ex4/README.md)
+## Navigation
+| Previous| Next |
+|---|---|
+| [Exercise 2](../ex2/README.md) | [Exercise 4](../ex4/README.md) |

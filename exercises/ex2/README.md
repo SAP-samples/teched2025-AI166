@@ -2,7 +2,7 @@
 
 In this exercise, you will get familiar with the Mobile Services Cockpit and create a new Mobile Services app.
 
-*Estimated Time: 🕓 x minutes*
+*Estimated Time: 🕓 10 minutes*
 
 ## Exercise 2.1 Access Mobile Services
 
@@ -82,5 +82,7 @@ The app creation process may take up to *90 seconds*. In the meantime, you can e
 
 You have now explored the Mobile Services Cockpit and created a new Mobile Services app.
 
-Continue to - [Exercise 3 - Create an MDK Project in SAP Build Lobby  ](../ex3/README.md)
-
+## Navigation
+| Previous| Next |
+|---|---|
+| [Exercise 1](../ex1/README.md) | [Exercise 3](../ex3/README.md) |

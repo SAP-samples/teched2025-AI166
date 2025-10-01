@@ -2,7 +2,7 @@
 
 In this exercise, you will use J4C to assist you with administration activities.
 
-*Estimated Time: 🕓 x minutes*
+*Estimated Time: 🕓 20 minutes*
 
 ## Exercise 5.1 Modify Passcode Policy
 
@@ -47,4 +47,7 @@ In this exercise, you will use J4C to assist you with administration activities.
 You’ve now seen how J4C can help administrators take advantage of product features to meet evolving business requirements.
 
 
-Continue to - [Exercise 6 - App Dev & Distribution](../ex6/README.md)
+## Navigation
+| Previous| Next |
+|---|---|
+| [Exercise 4](../ex4/README.md) | [Exercise 6](../ex6/README.md) |

@@ -2,7 +2,7 @@
 
 In this exercise, you’ll leverage J4C to choose the technology stack for the mobile app and then try out a demo version in action.
 
-*Estimated Time: 🕓 x minutes*
+*Estimated Time: 🕓 15 minutes*
 
 ## Exercise 1.1 Access Joule for Consultants
 
@@ -60,5 +60,8 @@ By the end of this conversation, you should have concluded that MDK is a suitabl
 
 You've now leveraged J4C to conclude on using MDK to build your mobile application.
 
-Continue to - [Exercise 2 - Create a Mobile Services App in Cockpit](../ex2/README.md)
+## Navigation
+| Next |
+|---|
+| [Exercise 2](../ex2/README.md) 
 
