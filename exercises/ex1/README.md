@@ -9,7 +9,7 @@ In this exercise, you’ll leverage J4C to choose the technology stack for the m
 1. Launch J4C - <a href="https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule" target="_blank" rel="noopener noreferrer">https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule</a>
 2.  Login using the credentials provided to you by the session speakers
 
-      <img src="images/j4c-landing.png" alt="Screenshot" width="800" />
+      <img src="images/j4c-landing.png" alt="J4C Landing Page" width="800" />
 
 
 ## Exercise 1.2 Determine Technology Stack
@@ -35,8 +35,8 @@ By the end of this conversation, you should have concluded that MDK is a suitabl
 
    | Platform    | Code |
    | --------- | ----------- |
-   | iOS <br> [*(app store link*)](https://apps.apple.com/us/app/sap-mobile-services-client/id1413653544) | ![iOS QR Code](images/ios-qr.png)|
-   | Android  <br> [*(play store link)*](https://play.google.com/store/apps/details?id=com.sap.mobileservices.client) | ![iOS QR Code](images/android-qr.png)|
+   | iOS <br> [*(app store link*)](https://apps.apple.com/us/app/sap-mobile-services-client/id1413653544) | <img src="images/ios-qr.png" alt="iOS QR Code" width="250" />|
+   | Android  <br> [*(play store link)*](https://play.google.com/store/apps/details?id=com.sap.mobileservices.client) | <img src="images/android-qr.png" alt="iOS QR Code" width="250" />|
 
 
 ## Exercise 1.4 Experience a Demo App
@@ -52,7 +52,7 @@ By the end of this conversation, you should have concluded that MDK is a suitabl
 
 | iOS | Android |
 |-----|---------|
-| ![iOS Demo App](images/ios-demo.gif) | ![Android Demo App](images/android-demo.gif) |
+| <img src="images/ios-demo.gif" alt="iOS Demo App" height="750" /> | <img src="images/android-demo.gif" alt="Android Demo App" height="750" /> |
 
 > The app also includes Mentor App mode. The MDK Mentor app is interactive documentation that helps designers and developers discover MDK capabilities.
 
