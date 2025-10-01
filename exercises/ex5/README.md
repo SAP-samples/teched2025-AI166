@@ -21,8 +21,8 @@ In this exercise, you will use J4C to assist you with administration activities.
 
       > | Actions | Visual Aid |
       > |-----------|--------|
-      > | 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.<br>2. Open your app **edu.xxx.teched25**.<br>3. Open **Client Settings**.<br>4. Change *Minimum Length* to **5**.<br>5. Enable *Upper Case Character Required* & *Lower Case Character Required*.<br>6. Click **Save**. | <img src="images/cockpit-passcode.png" alt="Android Offline" width="800" /> |
-      > | 7. On your phone, kill and relaunch your app a couple of times to force the update. <br> 8. On your device, you’ll be notified that the Passcode Policy has changed. <br> 9. Confirm your current passcode <br> 9. Set a new passcode following the updated policy. | <img src="images/ios-passcode.gif" alt="iOS Offline" height="400" /> <img src="images/android-passcode.gif" alt="Android Offline" height="400" /> |
+      > | 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.<br>2. Open your app **edu.xxx.teched25**.<br>3. Open **Client Settings**.<br>4. Change *Minimum Length* to **5**.<br>5. Enable *Upper Case Character Required* & *Lower Case Character Required*.<br>6. Click **Save**. | <img src="images/cockpit-passcode.png" alt="Android Offline" width="800" /> <br> *Tip: Click on the image to enlarge, then use your browser’s back button to return.* |
+      > | 7. On your phone, kill and relaunch your app a couple of times to force the update. <br> 8. On your device, you’ll be notified that the Passcode Policy has changed. <br> 9. Confirm your current passcode <br> 9. Set a new passcode following the updated policy. | <img src="images/ios-passcode.gif" alt="iOS Offline" height="400" /> <img src="images/android-passcode.gif" alt="Android Offline" height="400" /> <br> *Note: Passcode screens don’t appear in the Android GIF because the OS automatically hides sensitive screens for security.* <br> *Tip: Click a GIF to enlarge, then use your browser’s back button to return.* |
 
 ## Exercise 5.2 User and Device Management
 
@@ -36,12 +36,11 @@ In this exercise, you will use J4C to assist you with administration activities.
 3. Follow the steps mentioned by J4C.  
 
    > Since we have a monthly cloud shipment, J4C may not have the latest information. In case you notice any discrepancy, please request assistance from the speaker. Alternatively, use the following steps to revoke access:  
-   > 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.  
-   > 2. Open your app **edu.xxx.teched25**.  
-   > 3. Navigate to **Users and Devices Management**.  
-   > 4. Select one or more users and revoke access.  
-   > 5. Kill and relaunch your app a couple of times to force the update, or tap **Sync Changes** in the app.  
-   > 6. On your device, you will be forced to re-authenticate. Without completing it, you won’t be able to access the app data.
+   
+      > | Actions | Visual Aid |
+      > |-----------|--------|
+      > | 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.<br>2. Open your app **edu.xxx.teched25**.<br>3. Navigate to **Users and Devices Management**.<br> 4. Select one or more users and revoke access.  | <img src="images/cockpit-revoke.png" alt="Android Offline" width="800" /> <br> *Tip: Click on the image to enlarge, then use your browser’s back button to return.* |
+      > |  5. On your phone, kill and relaunch your app a couple of times to force the update, or tap **Sync Changes** in the app. <br> 6. You will be forced to re-authenticate. Without completing it, you won’t be able to access the app data.| <img src="images/ios-revoke.gif" alt="iOS Offline" height="400" /> <img src="images/android-revoke.gif" alt="Android Offline" height="400" /> <br> *Tip: Click a GIF to enlarge, then use your browser’s back button to return.* |
 
 ## Summary
 
