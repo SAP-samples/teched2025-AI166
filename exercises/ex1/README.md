@@ -9,7 +9,7 @@ In this exercise, you’ll leverage J4C to choose the technology stack for the m
 1. Launch J4C - <a href="https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule" target="_blank" rel="noopener noreferrer">https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule</a>
 2.  Login using the credentials provided to you by the session speakers
 
-      <img src="images/j4c-landing.png" alt="Screenshot" style="border:2px solid #ccc; border-radius:8px;" />
+      <img src="images/j4c-landing.png" alt="Screenshot" width="800" style="border:2px solid #000000ff; border-radius:8px;" />
 
 
 ## Exercise 1.2 Determine Technology Stack
