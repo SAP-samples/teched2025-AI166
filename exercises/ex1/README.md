@@ -6,10 +6,10 @@ In this exercise, you’ll leverage J4C to choose the technology stack for the m
 
 ## Exercise 1.1 Access Joule for Consultants
 
-1. Launch J4C - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule 
-2. Login using the credentials provided to you by the session speakers
+1. Launch J4C - <a href="https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule" target="_blank" rel="noopener noreferrer">https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule</a>
+2.  Login using the credentials provided to you by the session speakers
 
-   <img src="images/j4c-landing.png" width="800" />
+      <img src="images/j4c-landing.png" alt="Screenshot" style="border:2px solid #ccc; border-radius:8px;" />
 
 
 ## Exercise 1.2 Determine Technology Stack
