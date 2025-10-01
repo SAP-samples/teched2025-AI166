@@ -2,6 +2,8 @@
 
 In this exercise, you will get familiar with the Mobile Services Cockpit and create a new Mobile Services app.
 
+*Estimated Time: 🕓 x minutes*
+
 ## Exercise 2.1 Access Mobile Services
 
 1. Open the Mobile Services Cockpit: [https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html)  
