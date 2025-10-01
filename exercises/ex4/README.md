@@ -86,15 +86,10 @@ In this exercise, you will explore different features of the mobile app you buil
    https://ai166-ftaiywgj-ai166<YOUR APP ID HERE>.cfapps.eu10-004.hana.ondemand.com/com.sap.edm.sampleservice.v4/Customers?auth=uaa
    ```
 
+   | iOS | Android |
+   |-----|---------|
+   | <img src="images/ios-offline.gif" alt="iOS Offline" height="750" /> | <img src="images/android-offline.gif" alt="Android Offline" height="750" /> |
 
-Continue to - [Exercise 5 - Exercise 5 Description](../ex5/README.md)
-
-
-> If prompted, log in using the credentials provided by the session speakers.  
-
-| iOS | Android |
-|-----|---------|
-| <img src="images/ios-offline.gif" alt="iOS Offline" height="750" /> | <img src="images/android-offline.gif" alt="Android Offline" height="750" /> |
 
 ## Summary
 
