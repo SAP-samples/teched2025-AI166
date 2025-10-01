@@ -63,4 +63,4 @@ You've now leveraged J4C to conclude on using MDK to build your mobile applicati
 ## Navigation
 | Previous| Next |
 |---|---|
-| [Overview](../README.md) | [Exercise 2](../ex2/README.md) |
+| [Overview](../../README.md) | [Exercise 2](../ex2/README.md) |
