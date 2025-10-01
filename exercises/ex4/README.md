@@ -2,6 +2,8 @@
 
 In this exercise, you will explore different features of the mobile app you built.
 
+*Estimated Time: 🕓 x minutes*
+
 ## Exercise 4.1 User Onboarding
 
 1. Launch the **Mobile Svcs** app on your iOS/Android device.  
@@ -31,7 +33,7 @@ In this exercise, you will explore different features of the mobile app you buil
 
 | iOS | Android |
 |-----|---------|
-| ![iOS Onboarding](images/ios-onboarding.gif) | ![Android Onboarding](images/android-onboarding.gif) |
+| <img src="images/ios-onboarding.gif" alt="iOS Onboarding" height="750" /> | <img src="images/android-onboarding.gif" alt="Android Onboarding" height="750" /> |
 
 ## Exercise 4.2 Scan to Search
 
@@ -53,11 +55,11 @@ In this exercise, you will explore different features of the mobile app you buil
 
    | QR Code | Barcode |
    |---------|---------|
-   | ![QR Code](images/qr-code.gif) | ![Barcode](images/bar-code.gif) |  
+   | <img src="images/qr-code.gif" alt="QR Code" /> | <img src="images/bar-code.png" alt="Barcode" /> |  
 
 | iOS | Android |
 |-----|---------|
-| ![iOS Scanning](images/ios-scanning.gif)//TODO | ![Android Scanning](images/android-scanning.gif)//TODO |
+| <img src="images/ios-scanning.gif" alt="iOS Scanning" height="750" /> | <img src="images/android-scanning.gif" alt="Android Scanning" height="750" /> |
 
 ## Exercise 4.3 Offline Actions
 
@@ -75,10 +77,15 @@ In this exercise, you will explore different features of the mobile app you buil
 5. Turn off Airplane mode on your device, then sync changes again once the device is back online.  
 
 6. Verify your changes on the backend.  
-   To access the backend, replace **<YOUR APP ID HERE>** in the following URL with the ID you defined in [Exercise 2.2](/exercises/ex2/README.md#exercise-22-create-a-mobile-services-app):  
+   
+   To access the backend, replace **<YOUR APP ID HERE>** in the URL below with the App ID you created in [Exercise 2.2](/exercises/ex2/README.md#exercise-22-create-a-mobile-services-app).  
 
-   URL - `https://ai166-ftaiywgj-
-**<YOUR APP ID HERE>**.cfapps.eu10-004.hana.ondemand.com/com.sap.edm.sampleservice.v4/Customers?auth=uaa`
+   > Note: Your App ID is of the format `edu.xxx.teched25`. When inserting it into the URL, replace each `.` with `-`. For example, `edu.xxx.teched25` &rarr; `edu-xxx-teched25`.
+
+   ```url
+   https://ai166-ftaiywgj-ai166<YOUR APP ID HERE>.cfapps.eu10-004.hana.ondemand.com/com.sap.edm.sampleservice.v4/Customers?auth=uaa
+   ```
+
 
 Continue to - [Exercise 5 - Exercise 5 Description](../ex5/README.md)
 
@@ -87,7 +94,7 @@ Continue to - [Exercise 5 - Exercise 5 Description](../ex5/README.md)
 
 | iOS | Android |
 |-----|---------|
-| ![iOS Offline](images/ios-offline.gif) | ![Android Offline](images/android-offline.gif)//TODO |
+| <img src="images/ios-offline.gif" alt="iOS Offline" height="750" /> | <img src="images/android-offline.gif" alt="Android Offline" height="750" /> |
 
 ## Summary
 
