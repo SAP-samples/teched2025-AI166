@@ -6,4 +6,6 @@ Take a selfie with this badge and share it on social media to celebrate your ach
 
 ![Badge](./badge.png)
 
+<img src="./badge.png" alt="Badge" width="1000" />
+
 Back to the - [Start](../README.md)
