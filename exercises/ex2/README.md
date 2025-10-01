@@ -56,7 +56,7 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
    <img src="images/review.png" alt="Review" width="800" />
 
    > Click **OK**, in the warning dialog shown for not configuring role settings.
-      <img src="images/role-warning.png" alt="Review" width="800" />
+      ![Role Warning](images/role-warning.png)
 
 The app creation process may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 2.3](#exercise-23-j4c-queries-optional) or proceed directly to the [Summary](#summary).
 
