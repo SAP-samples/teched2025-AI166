@@ -11,7 +11,7 @@ In this exercise, you will use J4C to assist you with administration activities.
 
 2. Start a New Conversation, and ask J4C to guide you to change the passcode policy by contextualizing your requirement.  
    Example query:  
-   > I am a Mobile Services Administrator. I have received complaints that 8 characters is too long. So after a security audit, I am allowed to reduce it to 5 characters, but the passcode should have at least one upper case, and one lower case character. How do I make this change in Mobile Services cockpit?
+   > **I am a Mobile Services Administrator. I have received complaints that 8 characters is too long. So after a security audit, I am allowed to reduce it to 5 characters, but the passcode should have at least one upper case, and one lower case character. How do I make this change in Mobile Services cockpit?**
 
 3. Follow the steps mentioned by J4C.  
 
@@ -22,7 +22,7 @@ In this exercise, you will use J4C to assist you with administration activities.
       > | Actions | Visual Aid |
       > |-----------|--------|
       > | 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.<br>2. Open your app **edu.xxx.teched25**.<br>3. Open **Client Settings**.<br>4. Change *Minimum Length* to **5**.<br>5. Enable *Upper Case Character Required* & *Lower Case Character Required*.<br>6. Click **Save**. | <img src="images/cockpit-passcode.png" alt="Android Offline" width="800" /> |
-      > | 7. On your phone, kill and relaunch your app a couple of times to force the update. <br> 8. On your device, you’ll be notified that the Passcode Policy has changed. <br> 9. Confirm your current passcode <br> 9. Set a new passcode following the updated policy. | <img src="images/ios-passcode.gif" alt="iOS Offline" height="750" /> <img src="images/android-passcode.gif" alt="Android Offline" height="750" /> |
+      > | 7. On your phone, kill and relaunch your app a couple of times to force the update. <br> 8. On your device, you’ll be notified that the Passcode Policy has changed. <br> 9. Confirm your current passcode <br> 9. Set a new passcode following the updated policy. | <img src="images/ios-passcode.gif" alt="iOS Offline" height="400" /> <img src="images/android-passcode.gif" alt="Android Offline" height="400" /> |
 
 ## Exercise 5.2 User and Device Management
 
@@ -30,8 +30,8 @@ In this exercise, you will use J4C to assist you with administration activities.
 
 2. Ask J4C to guide you on how to do remote user and device management.  
    Example queries:  
-   > * One of the end-users has reported that their device is lost. What options do I have to remotely handle this situation without impacting any other user?  
-   > * I would like to revoke access. Can you please guide me on how do I do it?
+   > * **One of the end-users has reported that their device is lost. What options do I have to remotely handle this situation without impacting any other user?**
+   > * **I would like to revoke access. Can you please guide me on how do I do it?**
 
 3. Follow the steps mentioned by J4C.  
 
