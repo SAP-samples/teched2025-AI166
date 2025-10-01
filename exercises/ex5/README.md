@@ -2,6 +2,8 @@
 
 In this exercise, you will use J4C to assist you with administration activities.
 
+*Estimated Time: 🕓 x minutes*
+
 ## Exercise 5.1 Modify Passcode Policy
 
 1. Go back to J4C - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule  
@@ -13,17 +15,14 @@ In this exercise, you will use J4C to assist you with administration activities.
 
 3. Follow the steps mentioned by J4C.  
 
-   > Since we have a monthly cloud shipment, J4C may not have the latest information. In case you notice any discrepancy, please request assistance from the speaker. Alternatively, use the following steps to change the passcode policy:  
-   > 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.  
-   > 2. Open your app **edu.xxx.teched25**.  
-   > 3. Open **Client Settings**.  
-   > 4. Change *Minimum Length* to **5**.  
-   > 5. Enable *Upper Case Character Required* & *Lower Case Character Required*.  
-   > 6. Click **Save**.  
-   > 7. Kill and relaunch your app a couple of times to force the update.  
-   > 8. On your device, you’ll be notified that the Passcode Policy has changed. Confirm your current passcode, then set a new one following the updated rules.
+      > Since we have a monthly cloud shipment, J4C may not have the latest information. 
+      > If you notice any discrepancy, please request assistance from the speaker. 
+      > Alternatively, follow these steps to change the passcode policy:
 
----
+      > | Actions | Visual Aid |
+      > |-----------|--------|
+      > | 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.<br>2. Open your app **edu.xxx.teched25**.<br>3. Open **Client Settings**.<br>4. Change *Minimum Length* to **5**.<br>5. Enable *Upper Case Character Required* & *Lower Case Character Required*.<br>6. Click **Save**. | <img src="images/cockpit-passcode.png" alt="Android Offline" width="800" /> |
+      > | 7. On your phone, kill and relaunch your app a couple of times to force the update. <br> 8. On your device, you’ll be notified that the Passcode Policy has changed. <br> 9. Confirm your current passcode <br> 9. Set a new passcode following the updated policy. | <img src="images/ios-passcode.gif" alt="iOS Offline" height="750" /> <img src="images/android-passcode.gif" alt="Android Offline" height="750" /> |
 
 ## Exercise 5.2 User and Device Management
 
