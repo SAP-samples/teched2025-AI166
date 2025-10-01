@@ -2,11 +2,18 @@
 
 In this exercise, you’ll leverage J4C to choose the technology stack for the mobile app and then try out a demo version in action.
 
+*Estimated Time: 🕓 x minutes*
+
 ## Exercise 1.1 Access Joule for Consultants
 
 1. Launch J4C - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule 
 2. Login using the credentials provided to you by the session speakers
    ![J4C Landing Page](images/j4c-landing.png)
+
+   Test
+
+   <img src="images/j4c-landing.png" width="800" />
+
 
 ## Exercise 1.2 Determine Technology Stack
 
