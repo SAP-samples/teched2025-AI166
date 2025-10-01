@@ -61,7 +61,6 @@ By the end of this conversation, you should have concluded that MDK is a suitabl
 You've now leveraged J4C to conclude on using MDK to build your mobile application.
 
 ## Navigation
-| Next |
-|---|
-| [Exercise 2](../ex2/README.md) 
-
+| Previous| Next |
+|---|---|
+| [Overview](../README.md) | [Exercise 2](../ex2/README.md) |
