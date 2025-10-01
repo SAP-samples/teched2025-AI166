@@ -65,9 +65,9 @@ In this exercise, you will access the SAP Build Lobby to create an MDK project a
    <img src="images/runtime-resources.png" alt="Runtime Resources" width="800" />  
 2. Search for `XXX`, then select `edu.xxx.teched25` from the applications list in the **Mobile Application Services** editor.  
    > Replace `xxx` with your student number (last 3 digits of your login email).  
-   <img src="images/select-app.png" alt="Select App" width="250" />  
+   <img src="images/select-app.png" alt="Select App" width="400" />  
 3. Select `com.sap.edm.sampleservice.v4` from the destinations list and click **Add App to Project**.  
-   <img src="images/add-destination.png" alt="Add Destination" width="500" />  
+   <img src="images/add-destination.png" alt="Add Destination" width="700" />  
 
 The storyboard will now display the app under **Runtime Resources** and the destination under **External Resources**, connected by a dotted line.  
 
