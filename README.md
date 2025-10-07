@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2025 session AI166 - Mo
 
 ## Overview
 
-In this session, learn how Joule for Consultants (J4C) and Joule for Developers (J4D) can help developers accelerate mobile app development and assist admins in seamlessly taking advantage of the many features provided by SAP Build's mobile technology stack.
+In this session, learn how Joule for Consultants and SAP Joule for Developers can help developers accelerate mobile app development and assist admins in seamlessly taking advantage of the many features provided by SAP Build's mobile technology stack.
 
 ## Requirements
 
@@ -19,11 +19,11 @@ Your mandate goes beyond delivery. You’re also responsible for day-to-day oper
 
 ## Exercises
 
-- [Exercise 1 — Evaluate mobile options in SAP Build with J4C](exercises/ex1/README.md)
+- [Exercise 1 — Evaluate mobile options in SAP Build with Joule for Consultants](exercises/ex1/README.md)
 - [Exercise 2 — Create a Mobile Services App in Cockpit](exercises/ex2/README.md)
 - [Exercise 3 — Create an MDK Project in SAP Build Lobby  ](exercises/ex3/README.md)
 - [Exercise 4 — Using Your App on your Phone](exercises/ex4/README.md)
-- [Exercise 5 — J4C for Mobile ](exercises/ex5/README.md)
+- [Exercise 5 — Joule for Consultants for Mobile Admins](exercises/ex5/README.md)
 - [Exercise 6 — App Dev & Distribution](exercises/ex6/README.md)
 
 

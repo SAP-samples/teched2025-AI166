@@ -33,7 +33,7 @@ In this exercise, you will access the SAP Build Lobby to create an MDK project a
 6. Review the inputs under the **Summary** tab. If everything looks correct, click **Create**.  
    <img src="images/summary-review.png" alt="Summary" width="800" />  
 
-   > Your project will appear in the Lobby project table. Creation may take up to *120 seconds*. In the meantime, you can try the optional [Exercise 3.6](#exercise-36-j4c-queries-optional).  
+   > Your project will appear in the Lobby project table. Creation may take up to *120 seconds*. In the meantime, you can try the optional [Exercise 3.6](#exercise-36-joule-for-consultants-queries-optional).  
 
 7. Once the project is created, click the project name to open it.  
    
@@ -102,11 +102,11 @@ The storyboard will now display the app under **Runtime Resources** and the dest
 4. After clicking **Finish**, the storyboard will be updated with the UI component.  
    <img src="images/configured-storyboard.png" alt="UI Storyboard" width="800" />  
 
-The MDK project is generated in the Project Explorer and automatically deployed to Mobile Services. This may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 3.6](#exercise-36-j4c-queries-optional) or proceed directly to the [Summary](#summary).  
+The MDK project is generated in the Project Explorer and automatically deployed to Mobile Services. This may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 3.6](#exercise-36-joule-for-consultants-queries-optional) or proceed directly to the [Summary](#summary).  
 
-## Exercise 3.6 J4C Queries *(Optional)*  
+## Exercise 3.6 Joule for Consultants Queries *(Optional)*  
 
-1. In a new tab, launch J4C: [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule)  
+1. In a new tab, launch Joule for Consultants: [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule)  
 2. Try the following example queries:  
    - **App in Cockpit vs Lobby**  
      > What is the difference between the MDK app I create in Mobile Services Cockpit and the one I create in SAP Build Lobby?  

@@ -1,12 +1,12 @@
-# Exercise 1 - Evaluate mobile options in SAP Build with J4C
+# Exercise 1 - Evaluate mobile options in SAP Build with Joule for Consultants
 
-In this exercise, you’ll leverage J4C to choose the technology stack for the mobile app and then try out a demo version in action.
+In this exercise, you’ll leverage Joule for Consultants to choose the technology stack for the mobile app and then try out a demo version in action.
 
 *Estimated Time: 🕓 15 minutes*
 
 ## Exercise 1.1 Access Joule for Consultants
 
-1. In a new tab, launch J4C - [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule )
+1. In a new tab, launch Joule for Consultants - [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule )
 2.  Login using the credentials provided to you by the session speakers
 
       <img src="images/j4c-landing.png" alt="J4C Landing Page" width="800" />
@@ -18,11 +18,11 @@ In this exercise, you’ll leverage J4C to choose the technology stack for the m
    Example query:  
    > I want to build a custom mobile app. What technology should I use?
 
-2. SAP Build offers multiple approaches to achieve the same objective. Use J4C to determine which solution best fits your needs best.
+2. SAP Build offers multiple approaches to achieve the same objective. Use Joule for Consultants to determine which solution best fits your needs best.
    Example query:  
    > I don’t have native mobile developers, but I need the app to run on both iOS and Android within a limited budget. Should I use MDK or Native SDKs? 
 
-3. In this session you will develop an Mobile Development Kit (MDK) app, therefore, ask J4C whether it supports a critical requirement.  
+3. In this session you will develop an Mobile Development Kit (MDK) app, therefore, ask Joule for Consultants whether it supports a critical requirement.  
    Example query:  
    > The data read/write volume may be very high, so I’m considering a local store that periodically syncs with the back end. Can an MDK app support this?
 
@@ -58,7 +58,7 @@ By the end of this conversation, you should have concluded that MDK is a suitabl
 
 ## Summary
 
-You've now leveraged J4C to conclude on using MDK to build your mobile application.
+You've now leveraged Joule for Consultants to conclude on using MDK to build your mobile application.
 
 ## Navigation
 | Previous| Next |

@@ -64,16 +64,16 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
    > Click **OK**, in the warning dialog shown for not configuring role settings.
       ![Role Warning](images/role-warning.png)
 
-The app creation process may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 2.3](#exercise-23-j4c-queries-optional) or proceed directly to the [Summary](#summary).
+The app creation process may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 2.3](#exercise-23-joule-for-consultants-queries-optional) or proceed directly to the [Summary](#summary).
 
    | In Process         | Completed               |
    |--------------|---------------------|
    | <img src="images/status-creating.png" alt="Creation Status Creating"/> | <img src="images/status-created.png" alt="Creation Status Creating" /> |
 
 
-## Exercise 2.3 J4C Queries *(Optional)*
+## Exercise 2.3 Joule for Consultants Queries *(Optional)*
 
-1. In a new tab, launch J4C: [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule)  
+1. In a new tab, launch Joule for Consultants: [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule)  
 2. Try the following example queries:  
 
    - **XSUAA vs IAS**  

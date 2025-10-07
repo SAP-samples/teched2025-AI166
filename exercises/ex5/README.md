@@ -1,21 +1,21 @@
-# Exercise 5 - J4C for Mobile Admins
+# Exercise 5 - Joule for Consultants for Mobile Admins
 
-In this exercise, you will use J4C to assist you with administration activities.
+In this exercise, you will use Joule for Consultants to assist you with administration activities.
 
 *Estimated Time: 🕓 20 minutes*
 
 ## Exercise 5.1 Modify Passcode Policy
 
-1. Go back to J4C - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule  
+1. Go back to Joule for Consultants - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule  
    > You may have to reload the page and re-authenticate.
 
-2. Start a New Conversation, and ask J4C to guide you to change the passcode policy by contextualizing your requirement.  
+2. Start a New Conversation, and ask Joule for Consultants to guide you to change the passcode policy by contextualizing your requirement.  
    Example query:  
    > **I am a Mobile Services Administrator. I have received complaints that 8 characters is too long. So after a security audit, I am allowed to reduce it to 5 characters, but the passcode should have at least one upper case, and one lower case character. How do I make this change in Mobile Services cockpit?**
 
-3. Follow the steps mentioned by J4C.  
+3. Follow the steps mentioned by Joule for Consultants.  
 
-      > Since we have a monthly cloud shipment, J4C may not have the latest information. 
+      > Since we have a monthly cloud shipment, Joule for Consultants may not have the latest information. 
       > If you notice any discrepancy, please request assistance from the speaker. 
       > Alternatively, follow these steps to change the passcode policy:
 
@@ -26,16 +26,16 @@ In this exercise, you will use J4C to assist you with administration activities.
 
 ## Exercise 5.2 User and Device Management
 
-1. Go back to J4C - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule  
+1. Go back to Joule for Consultants - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule  
 
-2. Ask J4C to guide you on how to do remote user and device management.  
+2. Ask Joule for Consultants to guide you on how to do remote user and device management.  
    Example queries:  
    > * **One of the end-users has reported that their device is lost. What options do I have to remotely handle this situation without impacting any other user?**
    > * **I would like to revoke access. Can you please guide me on how do I do it?**
 
-3. Follow the steps mentioned by J4C.  
+3. Follow the steps mentioned by Joule for Consultants.  
 
-   > Since we have a monthly cloud shipment, J4C may not have the latest information. In case you notice any discrepancy, please request assistance from the speaker. Alternatively, use the following steps to revoke access:  
+   > Since we have a monthly cloud shipment, Joule for Consultants may not have the latest information. In case you notice any discrepancy, please request assistance from the speaker. Alternatively, use the following steps to revoke access:  
    
       > | Actions | Visual Aid |
       > |-----------|--------|
@@ -44,7 +44,7 @@ In this exercise, you will use J4C to assist you with administration activities.
 
 ## Summary
 
-You’ve now seen how J4C can help administrators take advantage of product features to meet evolving business requirements.
+You’ve now seen how Joule for Consultants can help administrators take advantage of product features to meet evolving business requirements.
 
 
 ## Navigation
