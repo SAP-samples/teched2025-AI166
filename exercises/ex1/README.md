@@ -47,7 +47,7 @@ By the end of this conversation, you should have concluded that MDK is a suitabl
 4. Open **Demo App**.  
    > The Demo App lets you explore MDK capabilities as a sample application.
 5. Navigate through the different screens and controls to experience the functionality.  
-6. Open the **popover menu**.  
+6. Tap on your **profile icon** to open the popover menu. 
 7. Tap **Logout** when done.  
 
 | iOS | Android |

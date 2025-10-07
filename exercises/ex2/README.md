@@ -9,11 +9,15 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
 1. Open the Mobile Services Cockpit: [https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html)  
 2. Enter the API Endpoint: **`https://api.cf.eu10-004.hana.ondemand.com`** and click **Login**.  
    <img src="images/api-endpoint.png" alt="API Endpoint" width="800" />  
+   > The API Endpoint allows Mobile Services to discover the SAP BTP subaccount and space.
 3. Enter the origin key: **`tdct3ched1-platform`** and click **Sign in with alternative identity provider**.  
    <img src="images/origin-key.png" alt="Origin Key" width="400" />  
 4. Log in using the credentials provided by the session speakers.  
 5. Verify the **Organization** and **Space** details as shown in the image, then click **Open**.  
    <img src="images/org-space.png" alt="Organization and Space" width="800" />  
+
+   > Click **OK**, in the warning dialog shown for Missing Resources Plan.
+      ![Resources Plan Warning](images/plan-popup.png)  
 
 ## Exercise 2.2 Create a Mobile Services App
 
@@ -31,7 +35,7 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
    |--------------|---------------------|----------|
    | Service Plan | `build-code`        |          |
    | ID           | `edu.xxx.teched25`  | Replace `xxx` with your student number (last 3 digits of your login email). |
-   | Name         | `XXX MDK App`       | Replace `xxx` with your student number (last 3 digits of your login email). |
+   | Name         | `MDK App XXX`       | Replace `xxx` with your student number (last 3 digits of your login email). |
    | Description  | *Any text you prefer* | Since the Mobile Services space is shared, follow the naming convention. You can customize the description to help identify your app. |
 
    <img src="images/basic-info.png" alt="Basic Info" width="800" />  

@@ -35,10 +35,11 @@ In this exercise, you will access the SAP Build Lobby to create an MDK project a
 
    > Your project will appear in the Lobby project table. Creation may take up to *120 seconds*. In the meantime, you can try the optional [Exercise 3.6](#exercise-36-j4c-queries-optional).  
 
-7. Once the project is created, click the project to open it.  
-   <img src="images/open-project.png" alt="Open Project" width="800" />
+7. Once the project is created, click the project name to open it.  
+   
+   > *💡 Tip: You can filter the SAP Build Lobby view to see only your projects.*
 
-   > You can filter the SAP Build Lobby view to see only your projects.  
+   <img src="images/open-project.png" alt="Open Project" width="800" />
 
 8. The project opens in SAP Business Application Studio.  
 
@@ -54,7 +55,7 @@ In this exercise, you will access the SAP Build Lobby to create an MDK project a
 5. Paste it in the **Enter your SSO Passcode** input field and click **Sign In**.  
 6. Verify the **Organization** and **Space** details, then click **Apply**.  
 
-   | You will see toast notifications confirming that your CF login was successful. |
+   | You will see toast notifications on the bottom right of your screen confirming that your CF login was successful. |
    |--------------|
    | <img src="images/cf-login.gif" alt="CF Login" width="800" /> |
 
@@ -98,7 +99,7 @@ The storyboard will now display the app under **Runtime Resources** and the dest
 
    > With *Enable Offline* set to **Yes**, the generated app will support offline capabilities in the MDK Mobile client, allowing end-users to read/write data locally without network delays.  
 
-4. After clicking **Finish**, the storyboard will update with the UI component.  
+4. After clicking **Finish**, the storyboard will be updated with the UI component.  
    <img src="images/configured-storyboard.png" alt="UI Storyboard" width="800" />  
 
 The MDK project is generated in the Project Explorer and automatically deployed to Mobile Services. This may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 3.6](#exercise-36-j4c-queries-optional) or proceed directly to the [Summary](#summary).  

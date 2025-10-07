@@ -10,7 +10,7 @@ In this session, learn how Joule for Consultants (J4C) and Joule for Developers 
 
 ## Requirements
 
-Ensure your personal mobile device has sufficient battery and is connected to the event Wi-Fi.
+To test the app you’ve built, you’ll need to **use your own mobile phone**. Please ensure your device is fully charged and connected to the event Wi-Fi.
 
 ## Use Case
 ACME Logistics has engaged you to build and run a mobile app for their warehouse staff. The app must work on iOS and Android, support barcode scanning, and keep pace with massive parcel volumes by using a local store for instant updates that syncs seamlessly with the back end. 
@@ -19,7 +19,7 @@ Your mandate goes beyond delivery. You’re also responsible for day-to-day oper
 
 ## Exercises
 
-- [Exercise 1 - Evaluate mobile options in SAP Build with J4C](exercises/ex1/README.md)
+- [Exercise 1 — Evaluate mobile options in SAP Build with J4C](exercises/ex1/README.md)
 - [Exercise 2 — Create a Mobile Services App in Cockpit](exercises/ex2/README.md)
 - [Exercise 3 — Create an MDK Project in SAP Build Lobby  ](exercises/ex3/README.md)
 - [Exercise 4 — Using Your App on your Phone](exercises/ex4/README.md)

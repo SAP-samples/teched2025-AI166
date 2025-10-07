@@ -6,7 +6,7 @@ In this exercise, you will explore different features of the mobile app you buil
 
 ## Exercise 4.1 User Onboarding
 
-1. Launch the **Mobile Svcs** app on your iOS/Android device.  
+1. Launch the app you installed in Exercise 1, **Mobile Svcs**, on your iOS/Android device.  
 
 2. Tap **Agree** on the End User License Agreement and Privacy Statement.  
 
@@ -63,7 +63,7 @@ In this exercise, you will explore different features of the mobile app you buil
 
 ## Exercise 4.3 Offline Actions
 
-1. Turn on **Airplane mode** on your device (no cellular or Wi-Fi).  
+1. Turn on **Airplane mode** on your device. Please ensure that WiFi is also turned off.
 
 2. Tap **Customers** to open the Customers list.  
 
@@ -71,24 +71,24 @@ In this exercise, you will explore different features of the mobile app you buil
    - Edit the name of an existing customer to your name.  
    - Delete a customer record.  
 
-4. Return to the main page and, in the popover menu, tap **Sync Changes**.  
+4. Return to the main page, tap your **profile icon** to open the popover menu, and then select **Sync Changes**.  
    > Since you are offline, you will see an error.  
 
-5. Turn off Airplane mode on your device, then sync changes again once the device is back online.  
+5. Turn off Airplane mode on your device, then sync changes again once the device is back online.
 
 6. Verify your changes on the backend.  
-   
-   To access the backend, replace **<YOUR APP ID HERE>** in the URL below with the App ID you created in [Exercise 2.2](/exercises/ex2/README.md#exercise-22-create-a-mobile-services-app).  
 
-   > Note: Your App ID is of the format `edu.xxx.teched25`. When inserting it into the URL, replace each `.` with `-`. For example, `edu.xxx.teched25` &rarr; `edu-xxx-teched25`.
+   Use the URL below and replace **`xxx`** with the ID you used in your App ID.  
 
    ```url
-   https://ai166-ftaiywgj-ai166<YOUR APP ID HERE>.cfapps.eu10-004.hana.ondemand.com/com.sap.edm.sampleservice.v4/Customers?auth=uaa
+   https://ai166-ftaiywgj-ai166-edu-xxx-teched25.cfapps.eu10-004.hana.ondemand.com/com.sap.edm.sampleservice.v4/Customers?auth=uaa
    ```
+   
+   > 📝 Note: If your app ID doesn’t follow the edu.xxx.teched25 format, adjust the URL accordingly by replacing each . with -
 
-   | iOS | Android |
-   |-----|---------|
-   | <img src="images/ios-offline.gif" alt="iOS Offline" height="750" /> | <img src="images/android-offline.gif" alt="Android Offline" height="750" /> |
+| iOS | Android |
+|-----|---------|
+| <img src="images/ios-offline.gif" alt="iOS Offline" height="750" /> | <img src="images/android-offline.gif" alt="Android Offline" height="750" /> |
 
 
 ## Summary
