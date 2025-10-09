@@ -2,26 +2,32 @@
 
 In this exercise, you will get familiar with the Mobile Services Cockpit and create a new Mobile Services app.
 
+*Estimated Time: 🕓 10 minutes*
+
 ## Exercise 2.1 Access Mobile Services
 
 1. Open the Mobile Services Cockpit: [https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html)  
 2. Enter the API Endpoint: **`https://api.cf.eu10-004.hana.ondemand.com`** and click **Login**.  
-   ![API Endpoint](images/api-endpoint.png)  
+   <img src="images/api-endpoint.png" alt="API Endpoint" width="800" />  
+   > The API Endpoint allows Mobile Services to discover the SAP BTP subaccount and space.
 3. Enter the origin key: **`tdct3ched1-platform`** and click **Sign in with alternative identity provider**.  
-   ![Origin Key](images/origin-key.png)  
+   <img src="images/origin-key.png" alt="Origin Key" width="400" />  
 4. Log in using the credentials provided by the session speakers.  
 5. Verify the **Organization** and **Space** details as shown in the image, then click **Open**.  
-   ![Organization and Space](images/org-space.png)  
+   <img src="images/org-space.png" alt="Organization and Space" width="800" />  
+
+   > Click **OK**, in the warning dialog shown for Missing Resources Plan.
+      ![Resources Plan Warning](images/plan-popup.png)  
 
 ## Exercise 2.2 Create a Mobile Services App
 
 1. Click **Create New App**.  
  
-   ![Create App](images/create-app.png)  
+   <img src="images/create-app.png" alt="Create App" width="800" />  
 
 2. In the **Type of Application** step of the wizard, select **MDK** and click **Next**.  
  
-   ![App Type](images/app-type.png)  
+   <img src="images/app-type.png" alt="App Type" width="800" />  
 
 3. In the **Basic Info** step, enter the following details and click **Next**:  
 
@@ -29,16 +35,16 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
    |--------------|---------------------|----------|
    | Service Plan | `build-code`        |          |
    | ID           | `edu.xxx.teched25`  | Replace `xxx` with your student number (last 3 digits of your login email). |
-   | Name         | `XXX MDK App`       | Replace `xxx` with your student number (last 3 digits of your login email). |
+   | Name         | `MDK App XXX`       | Replace `xxx` with your student number (last 3 digits of your login email). |
    | Description  | *Any text you prefer* | Since the Mobile Services space is shared, follow the naming convention. You can customize the description to help identify your app. |
 
-   ![Basic Info](images/basic-info.png)  
+   <img src="images/basic-info.png" alt="Basic Info" width="800" />  
 
 4. In **Security Settings**, keep **XSUAA Settings** selected and click **Next**.  
-   ![Security Settings](images/sec-set.png)  
+   <img src="images/sec-set.png" alt="Security Settings" width="800" />  
 
 5. Do not enable **Role Settings**, then click **Next**.  
-   ![Role Settings](images/role-set.png)  
+   <img src="images/role-set.png" alt="Role Settings" width="800" />  
 
 6. In **Assigned Features**, ensure the following features are selected, then click **Next**.
    * App Catalog
@@ -50,24 +56,24 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
    * Offline Access
    * Push Notification
    * **Sample OData ESPM**
-   ![Assigned Features](images/assigned-features.png)  
+   <img src="images/assigned-features.png" alt="Assigned Features" width="800" />  
 
 7. Review your details and click **Finish**.  
-   ![Review](images/review.png)
+   <img src="images/review.png" alt="Review" width="800" />
 
    > Click **OK**, in the warning dialog shown for not configuring role settings.
-    ![Review](images/role-warning.png)
+      ![Role Warning](images/role-warning.png)
 
-The app creation process may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 2.3](#exercise-23-j4c-queries-optional) or proceed directly to the [Summary](#summary).
+The app creation process may take up to *90 seconds*. In the meantime, you can either try the optional [Exercise 2.3](#exercise-23-joule-for-consultants-queries-optional) or proceed directly to the [Summary](#summary).
 
    | In Process         | Completed               |
    |--------------|---------------------|
-   | ![Creation Status Creating](images/status-creating.png) | ![Creation Status Creating](images/status-created.png) |
+   | <img src="images/status-creating.png" alt="Creation Status Creating"/> | <img src="images/status-created.png" alt="Creation Status Creating" /> |
 
 
-## Exercise 2.3 J4C Queries *(Optional)*
+## Exercise 2.3 Joule for Consultants Queries *(Optional)*
 
-1. Launch J4C: [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule)  
+1. In a new tab, launch Joule for Consultants: [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule)  
 2. Try the following example queries:  
 
    - **XSUAA vs IAS**  
@@ -80,5 +86,7 @@ The app creation process may take up to *90 seconds*. In the meantime, you can e
 
 You have now explored the Mobile Services Cockpit and created a new Mobile Services app.
 
-Continue to - [Exercise 3 - Create an MDK Project in SAP Build Lobby  ](../ex3/README.md)
-
+## Navigation
+| Previous| Next |
+|---|---|
+| [Exercise 1](../ex1/README.md) | [Exercise 3](../ex3/README.md) |

@@ -2,9 +2,11 @@
 
 In this exercise, you will explore different features of the mobile app you built.
 
+*Estimated Time: 🕓 10 minutes*
+
 ## Exercise 4.1 User Onboarding
 
-1. Launch the **Mobile Svcs** app on your iOS/Android device.  
+1. Launch the app you installed in Exercise 1, **Mobile Svcs**, on your iOS/Android device.  
 
 2. Tap **Agree** on the End User License Agreement and Privacy Statement.  
 
@@ -31,7 +33,7 @@ In this exercise, you will explore different features of the mobile app you buil
 
 | iOS | Android |
 |-----|---------|
-| ![iOS Onboarding](images/ios-onboarding.gif) | ![Android Onboarding](images/android-onboarding.gif) |
+| <img src="images/ios-onboarding.gif" alt="iOS Onboarding" height="750" /> | <img src="images/android-onboarding.gif" alt="Android Onboarding" height="750" /> |
 
 ## Exercise 4.2 Scan to Search
 
@@ -53,15 +55,15 @@ In this exercise, you will explore different features of the mobile app you buil
 
    | QR Code | Barcode |
    |---------|---------|
-   | ![QR Code](images/qr-code.gif) | ![Barcode](images/bar-code.gif) |  
+   | <img src="images/qr-code.gif" alt="QR Code" /> | <img src="images/bar-code.png" alt="Barcode" /> |  
 
 | iOS | Android |
 |-----|---------|
-| ![iOS Scanning](images/ios-scanning.gif)//TODO | ![Android Scanning](images/android-scanning.gif)//TODO |
+| <img src="images/ios-scanning.gif" alt="iOS Scanning" height="750" /> | <img src="images/android-scanning.gif" alt="Android Scanning" height="750" /> |
 
 ## Exercise 4.3 Offline Actions
 
-1. Turn on **Airplane mode** on your device (no cellular or Wi-Fi).  
+1. Turn on **Airplane mode** on your device. Please ensure that WiFi is also turned off.
 
 2. Tap **Customers** to open the Customers list.  
 
@@ -69,28 +71,31 @@ In this exercise, you will explore different features of the mobile app you buil
    - Edit the name of an existing customer to your name.  
    - Delete a customer record.  
 
-4. Return to the main page and, in the popover menu, tap **Sync Changes**.  
+4. Return to the main page, tap your **profile icon** to open the popover menu, and then select **Sync Changes**.  
    > Since you are offline, you will see an error.  
 
-5. Turn off Airplane mode on your device, then sync changes again once the device is back online.  
+5. Turn off Airplane mode on your device, then sync changes again once the device is back online.
 
 6. Verify your changes on the backend.  
-   To access the backend, replace **<YOUR APP ID HERE>** in the following URL with the ID you defined in [Exercise 2.2](/exercises/ex2/README.md#exercise-22-create-a-mobile-services-app):  
 
-   URL - `https://ai166-ftaiywgj-
-**<YOUR APP ID HERE>**.cfapps.eu10-004.hana.ondemand.com/com.sap.edm.sampleservice.v4/Customers?auth=uaa`
+   Use the URL below and replace **`xxx`** with the ID you used in your App ID.  
 
-Continue to - [Exercise 5 - Exercise 5 Description](../ex5/README.md)
-
-
-> If prompted, log in using the credentials provided by the session speakers.  
+   ```url
+   https://ai166-ftaiywgj-ai166-edu-xxx-teched25.cfapps.eu10-004.hana.ondemand.com/com.sap.edm.sampleservice.v4/Customers?auth=uaa
+   ```
+   
+   > 📝 Note: If your app ID doesn’t follow the edu.xxx.teched25 format, adjust the URL accordingly by replacing each . with -
 
 | iOS | Android |
 |-----|---------|
-| ![iOS Offline](images/ios-offline.gif) | ![Android Offline](images/android-offline.gif)//TODO |
+| <img src="images/ios-offline.gif" alt="iOS Offline" height="750" /> | <img src="images/android-offline.gif" alt="Android Offline" height="750" /> |
+
 
 ## Summary
 
 You've experienced how you can build a native application with cutting-edge features such as scanning and offline support on both platforms while maintaining a single code line.
 
-Continue to - [Exercise 5 - J4C for Mobile Admins](../ex5/README.md)
+## Navigation
+| Previous| Next |
+|---|---|
+| [Exercise 3](../ex3/README.md) | [Exercise 5](../ex5/README.md) |
