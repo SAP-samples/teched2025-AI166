@@ -1,16 +1,12 @@
-# Exercise 1 - Evaluate mobile options in SAP Build with Joule for Consultants
+# Exercise 1 - Evaluate mobile options in SAP Build with J4C
 
-In this exercise, you’ll leverage Joule for Consultants to choose the technology stack for the mobile app and then try out a demo version in action.
-
-*Estimated Time: 🕓 15 minutes*
+In this exercise, you’ll leverage J4C to choose the technology stack for the mobile app and then try out a demo version in action.
 
 ## Exercise 1.1 Access Joule for Consultants
 
-1. In a new tab, launch Joule for Consultants - [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule )
-2.  Login using the credentials provided to you by the session speakers
-
-      <img src="images/j4c-landing.png" alt="J4C Landing Page" width="800" />
-
+1. Launch J4C - https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule 
+2. Login using the credentials provided to you by the session speakers
+   ![J4C Landing Page](images/j4c-landing.png)
 
 ## Exercise 1.2 Determine Technology Stack
 
@@ -18,11 +14,11 @@ In this exercise, you’ll leverage Joule for Consultants to choose the technolo
    Example query:  
    > I want to build a custom mobile app. What technology should I use?
 
-2. SAP Build offers multiple approaches to achieve the same objective. Use Joule for Consultants to determine which solution best fits your needs best.
+2. SAP Build offers multiple approaches to achieve the same objective. Use J4C to determine which solution best fits your needs best.
    Example query:  
    > I don’t have native mobile developers, but I need the app to run on both iOS and Android within a limited budget. Should I use MDK or Native SDKs? 
 
-3. In this session you will develop an Mobile Development Kit (MDK) app, therefore, ask Joule for Consultants whether it supports a critical requirement.  
+3. In this session you will develop an Mobile Development Kit (MDK) app, therefore, ask J4C whether it supports a critical requirement.  
    Example query:  
    > The data read/write volume may be very high, so I’m considering a local store that periodically syncs with the back end. Can an MDK app support this?
 
@@ -35,8 +31,8 @@ By the end of this conversation, you should have concluded that MDK is a suitabl
 
    | Platform    | Code |
    | --------- | ----------- |
-   | iOS <br> [*(app store link*)](https://apps.apple.com/us/app/sap-mobile-services-client/id1413653544) | <img src="images/ios-qr.png" alt="iOS QR Code" width="250" />|
-   | Android  <br> [*(play store link)*](https://play.google.com/store/apps/details?id=com.sap.mobileservices.client) | <img src="images/android-qr.png" alt="iOS QR Code" width="250" />|
+   | iOS <br> [*(app store link*)](https://apps.apple.com/us/app/sap-mobile-services-client/id1413653544) | ![iOS QR Code](images/ios-qr.png)|
+   | Android  <br> [*(play store link)*](https://play.google.com/store/apps/details?id=com.sap.mobileservices.client) | ![iOS QR Code](images/android-qr.png)|
 
 
 ## Exercise 1.4 Experience a Demo App
@@ -47,20 +43,18 @@ By the end of this conversation, you should have concluded that MDK is a suitabl
 4. Open **Demo App**.  
    > The Demo App lets you explore MDK capabilities as a sample application.
 5. Navigate through the different screens and controls to experience the functionality.  
-6. Tap on your **profile icon** to open the popover menu. 
+6. Open the **popover menu**.  
 7. Tap **Logout** when done.  
 
 | iOS | Android |
 |-----|---------|
-| <img src="images/ios-demo.gif" alt="iOS Demo App" height="750" /> | <img src="images/android-demo.gif" alt="Android Demo App" height="750" /> |
+| ![iOS Demo App](images/ios-demo.gif) | ![Android Demo App](images/android-demo.gif) |
 
 > The app also includes Mentor App mode. The MDK Mentor app is interactive documentation that helps designers and developers discover MDK capabilities.
 
 ## Summary
 
-You've now leveraged Joule for Consultants to conclude on using MDK to build your mobile application.
+You've now leveraged J4C to conclude on using MDK to build your mobile application.
 
-## Navigation
-| Previous| Next |
-|---|---|
-| [Overview](../../README.md) | [Exercise 2](../ex2/README.md) |
+Continue to - [Exercise 2 - Create a Mobile Services App in Cockpit](../ex2/README.md)
+
