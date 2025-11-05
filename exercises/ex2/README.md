@@ -12,14 +12,15 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
    https://api.cf.eu10-004.hana.ondemand.com
    ``` 
    <img src="images/api-endpoint.png" alt="API Endpoint" width="800" />  
+
    > The API Endpoint allows Mobile Services to discover the SAP BTP subaccount and space.
-3. Enter the following origin key and click **Sign in with alternative identity provider**.
+4. Enter the following origin key and click **Sign in with alternative identity provider**.
    ```url
    tdct3ched1-platform
    ```
    <img src="images/origin-key.png" alt="Origin Key" width="400" />  
-4. Log in using the credentials provided by the session speakers.  
-5. Verify the **Organization** and **Space** details as shown in the image, then click **Open**.  
+5. Log in using the credentials provided by the session speakers.  
+6. Verify the **Organization** and **Space** details as shown in the image, then click **Open**.  
    <img src="images/org-space.png" alt="Organization and Space" width="800" />  
 
    > Click **OK**, in the warning dialog shown for Missing Resources Plan.
