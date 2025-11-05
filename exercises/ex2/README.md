@@ -7,10 +7,16 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
 ## Exercise 2.1 Access Mobile Services
 
 1. Open the Mobile Services Cockpit: [https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html)  
-2. Enter the API Endpoint: **`https://api.cf.eu10-004.hana.ondemand.com`** and click **Login**.  
+2. Enter the following API Endpoint, and click **Login**. 
+   ```url
+   https://api.cf.eu10-004.hana.ondemand.com
+   ``` 
    <img src="images/api-endpoint.png" alt="API Endpoint" width="800" />  
    > The API Endpoint allows Mobile Services to discover the SAP BTP subaccount and space.
-3. Enter the origin key: **`tdct3ched1-platform`** and click **Sign in with alternative identity provider**.  
+3. Enter the following origin key and click **Sign in with alternative identity provider**.
+   ```url
+   tdct3ched1-platform
+   ```
    <img src="images/origin-key.png" alt="Origin Key" width="400" />  
 4. Log in using the credentials provided by the session speakers.  
 5. Verify the **Organization** and **Space** details as shown in the image, then click **Open**.  
