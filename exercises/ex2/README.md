@@ -42,7 +42,7 @@ In this exercise, you will get familiar with the Mobile Services Cockpit and cre
    |--------------|---------------------|----------|
    | Service Plan | `build-code`        |          |
    | ID           | `edu.xxx.teched25`  | Replace `xxx` with your student number (last 3 digits of your login email). |
-   | Name         | `MDK App XXX`       | Replace `xxx` with your student number (last 3 digits of your login email). |
+   | Name         | `XXX MDK App`       | Replace `xxx` with your student number (last 3 digits of your login email). |
    | Description  | *Any text you prefer* | Since the Mobile Services space is shared, follow the naming convention. You can customize the description to help identify your app. |
 
    <img src="images/basic-info.png" alt="Basic Info" width="800" />  
