@@ -24,7 +24,7 @@ In this exercise, you will access the SAP Build Lobby to create an MDK project a
 
    | Key          | Value               | Comments |
    |--------------|---------------------|----------|
-   | Name         | `XXX MDK App`         | Replace `xxx` with your student number (last 3 digits of your login email). |
+   | Name         | `MDK App XXX`         | Replace `xxx` with your student number (last 3 digits of your login email). |
    | Description  | *Any text you prefer* | Since the Mobile Services space is shared, follow the naming convention. |
    | Dev Space    | `Mobile`            | SAP Build pre-selects the most suitable dev space. It will create a new one if needed, or you can reuse an existing Mobile Application dev space. See [Dev Space Manager](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/ad40d52d0bea4d79baaf9626509caf33.html) for more details. |
 
