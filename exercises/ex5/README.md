@@ -11,7 +11,7 @@ In this exercise, you will use Joule for Consultants to assist you with administ
 
 2. Start a New Conversation, and ask Joule for Consultants to guide you to change the passcode policy by contextualizing your requirement.  
    Example query:  
-   > **I am a Mobile Services Administrator. I have received complaints that 8 characters is too long. So after a security audit, I am allowed to reduce it to 5 characters, but the passcode should have at least one upper case, and one lower case character. How do I make this change in Mobile Services cockpit?**
+   > **I am a Mobile Services Administrator. I have received complaints that 8 characters is too long. So after a security audit, I am allowed to reduce it to 5 characters, but the passcode should have at least one upper case, and one lower case character. How do I make this change in Mobile Services admin UI?**
 
 3. Follow the steps mentioned by Joule for Consultants.  
 
@@ -21,7 +21,7 @@ In this exercise, you will use Joule for Consultants to assist you with administ
 
       > | Actions | Visual Aid |
       > |-----------|--------|
-      > | 1. Open the [Mobile Services Cockpit](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.<br>2. Open your app **edu.xxx.teched25**.<br>3. Open **Client Settings**.<br>4. In the Passcode Policy section of the Client Configuration tab: <br> &nbsp;&nbsp;&#9702; Change *Minimum Length* to **5**.<br> &nbsp;&nbsp;&#9702; Enable *Upper Case Character Required* <br> &nbsp;&nbsp;&#9702; Enable *Lower Case Character Required*.<br>5. Click **Save**. | <img src="images/cockpit-passcode.png" alt="Android Offline" width="800" /> <br> *💡 Tip: Click on the image to enlarge, then use your browser’s back button to return.* |
+      > | 1. Open the [Mobile Services Admin UI](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html) and log in if required.<br>2. Open your app **edu.xxx.teched25**.<br>3. Open **Client Settings**.<br>4. In the Passcode Policy section of the Client Configuration tab: <br> &nbsp;&nbsp;&#9702; Change *Minimum Length* to **5**.<br> &nbsp;&nbsp;&#9702; Enable *Upper Case Character Required* <br> &nbsp;&nbsp;&#9702; Enable *Lower Case Character Required*.<br>5. Click **Save**. | <img src="images/cockpit-passcode.png" alt="Android Offline" width="800" /> <br> *💡 Tip: Click on the image to enlarge, then use your browser’s back button to return.* |
       > | 6. On your phone, kill and relaunch your app a couple of times to force the update. <br> 7. On your device, you’ll be notified that the Passcode Policy has changed. <br> 8. Confirm your current passcode <br> 9. Set a new passcode following the updated policy. | <img src="images/ios-passcode.gif" alt="iOS Offline" height="400" /> <img src="images/android-passcode.gif" alt="Android Offline" height="400" /> <br> *📝 Note: Passcode screens don’t appear in the Android GIF because the OS automatically hides sensitive screens for security.* <br> *💡 Tip: Click a GIF to enlarge, then use your browser’s back button to return.* |
 
 ## Exercise 5.2 User and Device Management

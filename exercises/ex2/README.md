@@ -1,12 +1,12 @@
-# Exercise 2 - Create a Mobile Services App in Cockpit
+# Exercise 2 - Create a Mobile Services App in Admin UI
 
-In this exercise, you will get familiar with the Mobile Services Cockpit and create a new Mobile Services app.
+In this exercise, you will get familiar with the Mobile Services Admin UI and create a new Mobile Services app.
 
 *Estimated Time: 🕓 10 minutes*
 
 ## Exercise 2.1 Access Mobile Services
 
-1. Open the Mobile Services Cockpit: [https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html)  
+1. Open the Mobile Services Admin UI: [https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html](https://mobile-service-cockpit-web.cfapps.eu10.hana.ondemand.com/logincfapi/index.html)  
 2. Enter the following API Endpoint, and click **Login**. 
    ```url
    https://api.cf.eu10-004.hana.ondemand.com
@@ -91,7 +91,7 @@ The app creation process may take up to *90 seconds*. In the meantime, you can e
 
 ## Summary
 
-You have now explored the Mobile Services Cockpit and created a new Mobile Services app.
+You have now explored the Mobile Services Admin UI and created a new Mobile Services app.
 
 ## Navigation
 | Previous| Next |

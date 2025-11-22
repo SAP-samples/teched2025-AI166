@@ -33,7 +33,7 @@ By the end of this conversation, you should have concluded that MDK is a suitabl
 
 1. Scan the appropriate code to install SAP Mobile Services Client on your mobile device. 
 
-   | Platform    | Code |
+   | Platform    | QR Code |
    | --------- | ----------- |
    | iOS <br> [*(app store link*)](https://apps.apple.com/us/app/sap-mobile-services-client/id1413653544) | <img src="images/ios-qr.png" alt="iOS QR Code" width="250" />|
    | Android  <br> [*(play store link)*](https://play.google.com/store/apps/details?id=com.sap.mobileservices.client) | <img src="images/android-qr.png" alt="iOS QR Code" width="250" />|

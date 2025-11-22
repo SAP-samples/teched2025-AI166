@@ -108,8 +108,8 @@ The MDK project is generated in the Project Explorer and automatically deployed 
 
 1. In a new tab, launch Joule for Consultants: [https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule](https://ai166-ftaiywgj.eu10.sapdas.cloud.sap/joule)  
 2. Try the following example queries:  
-   - **App in Cockpit vs Lobby**  
-     > What is the difference between the MDK app I create in Mobile Services Cockpit and the one I create in SAP Build Lobby?  
+   - **App in Admin UI vs Lobby**  
+     > What is the difference between the MDK app I create in Mobile Services Admin UI and the one I create in SAP Build Lobby?  
    - **Runtime vs External Resource**  
      > What is the difference between Runtime Resource and External Resource for an MDK app?  
 

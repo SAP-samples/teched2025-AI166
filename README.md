@@ -20,7 +20,7 @@ Your mandate goes beyond delivery. You’re also responsible for day-to-day oper
 ## Exercises
 
 - [Exercise 1 — Evaluate mobile options in SAP Build with Joule for Consultants](exercises/ex1/README.md)
-- [Exercise 2 — Create a Mobile Services App in Cockpit](exercises/ex2/README.md)
+- [Exercise 2 — Create a Mobile Services App in Admin UI](exercises/ex2/README.md)
 - [Exercise 3 — Create an MDK Project in SAP Build Lobby  ](exercises/ex3/README.md)
 - [Exercise 4 — Using Your App on your Phone](exercises/ex4/README.md)
 - [Exercise 5 — Joule for Consultants for Mobile Admins](exercises/ex5/README.md)

@@ -1,1 +1,6 @@
-sandeep.md
+**/.DS_Store
+**/jsconfig.json
+**/IClientAPI.d.ts
+**/.vscode/*
+**/.build/*
+**/.project.json
